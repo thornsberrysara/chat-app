@@ -47,7 +47,6 @@ body, html {
 
 .message-container {
     display: grid;
-    /* grid-template-rows: 92% auto; */
     border: 1px solid #c4c4c4;
 }
 .chat-body {
@@ -55,10 +54,7 @@ body, html {
     overflow-y: auto;
 }
 .message-box {
-    /* position: absolute;
-    bottom: 0; */
     align-self: bottom;
-    /* border: 1px solid green; */
 }
 .message {
     background: rgb(225, 235, 225);
