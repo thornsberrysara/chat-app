@@ -1,0 +1,33 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornsberrysara/chat-app.git"
+  },
+  "keywords": [
+    "chat",
+    "javascript",
+    "js",
+    "express",
+    "stream",
+    "node"
+  ],
+  "author": "Sara Thornsberry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thornsberrysara/chat-app/issues"
+  },
+  "homepage": "https://github.com/thornsberrysara/chat-app#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "stream-chat": "^4.2.0"
+  }
+}
